@@ -21,8 +21,8 @@
 
 #gif img {
   margin-top: 5%;
-  padding-left: 15%;
-  width: 65%;
+  padding-left: 21%;
+  width: 79%;
 }
 
 #hide img {
@@ -39,4 +39,8 @@ li {
 
 .result-col li {
   font-size: 20px;
+}
+
+.result-text h3 {
+  display:none;
 }

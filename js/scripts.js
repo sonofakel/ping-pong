@@ -36,6 +36,7 @@ $(function() {
   $("#number-input").submit(function(event) {
     event.preventDefault();
     $("#hide img").hide();
+    $(".result-text h3").show();
     var number = $("#number").val();
     $("#output ul").append(pingPong(number));
   });
