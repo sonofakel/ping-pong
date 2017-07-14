@@ -1,0 +1,20 @@
+.container {
+  margin-bottom: 7%;
+  background-image: url("../img/bkg.png");
+  padding-bottom: 7%;
+}
+
+.jumbotron {
+  text-align: center;
+  background-image: url("../img/track-bkg.png");
+  color: #186290;
+}
+
+.jumbotron p{
+  color: white;
+}
+
+.result-col {
+  margin-left: 3%;
+  margin-top: 6%;
+}

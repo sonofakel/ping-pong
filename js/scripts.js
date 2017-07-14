@@ -1,9 +1,8 @@
-// Business Logic -->
-
 // Global Variabes -->
+
 var returnArr = [];
 
-// Count up to 2 from 1 when user inputs 2
+// Business Logic -->
 
 var pingPong = function(number) {
   var initalValue = 0;
@@ -14,28 +13,23 @@ var pingPong = function(number) {
     }
   }
   for (i = 0; i < returnArr.length; i++) {
-  debugger;
+    debugger;
     if (returnArr[i] % 15 === 0) {
-       returnArr[i] = "pingpong";
-    } else if (returnArr[i] % 3 === 0 ) {
+      returnArr[i] = "pingpong";
+    } else if (returnArr[i] % 3 === 0) {
       returnArr[i] = "ping";
     } else if (returnArr[i] % 5 === 0) {
       returnArr[i] = "pong";
     } else {
       returnArr[i];
     }
-
   }
-
-//   for(var i = 0; i < returnArr.length; i++){
-//     returnArr[i] = "<li>" + returnArr[i] + "</li>";
-// }
-
-
-    var join = returnArr.join(" ");
-    return join;
+  for (var i = 0; i < returnArr.length; i++) {
+    returnArr[i] = "<li>" + returnArr[i] + "</li>";
+  }
+  var join = returnArr.join(" ");
+  return join;
 }
-
 
 // UI Logic -->
 $(function() {
@@ -43,6 +37,8 @@ $(function() {
     event.preventDefault();
     var number = $("#number").val();
     $("#output ul").append(pingPong(number));
-
+  });
+  $("#refresh").click(function() {
+    location.reload();
   });
 });

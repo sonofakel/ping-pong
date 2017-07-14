@@ -16,18 +16,27 @@
       <div class="jumbotron">
       <h1>Ping Pong</h1>
       </div>
-      <form id="number-input">
-        <h3>Enter in a number to watch the computer play ping-pong</h3>
-        <div class="form-group">
-          <label for="number">Enter a number: </label>
-          <input id="number" class="form-control" type="text">
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
-      <div id="output">
-        <ul>
+        <div class="col-md-6 survey-col">
+        <form id="number-input">
+          <h3>Enter in a number to watch the computer play ping-pong</h3>
+          <div class="form-group">
+            <label for="number">Enter a number: </label>
+            <input id="number" class="form-control" type="text">
+          </div>
+          <button type="submit" class="btn btn-primary">Play</button>
+          <button type="click" id="refresh" class="btn btn-info">Reset Game</button>
+        </form>
+      </div>
+      <div class="col-md-1">
+      </div>
+      <div class="col-md-5 result-col">
+        <div class="result-text">
+          <div id="output">
+            <ul>
 
-        </ul>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   </body>
