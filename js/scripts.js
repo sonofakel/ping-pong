@@ -6,7 +6,6 @@ var returnArr = [];
 // Count up to 2 from 1 when user inputs 2
 
 var pingPong = function(number) {
-
   var initalValue = 0;
   if (initalValue < number) {
     for (i = 1; i <= number; i++) {
@@ -22,13 +21,15 @@ var pingPong = function(number) {
       returnArr[i] = "ping";
     } else if (returnArr[i] % 5 === 0) {
       returnArr[i] = "pong";
+    } else {
+      returnArr[i];
     }
 
   }
 
-  for(var i = 0; i < returnArr.length; i++){
-    returnArr[i] = "<li>" + returnArr[i] + "</li>";
-}
+//   for(var i = 0; i < returnArr.length; i++){
+//     returnArr[i] = "<li>" + returnArr[i] + "</li>";
+// }
 
 
     var join = returnArr.join(" ");
@@ -42,6 +43,6 @@ $(function() {
     event.preventDefault();
     var number = $("#number").val();
     $("#output ul").append(pingPong(number));
-  });
 
+  });
 });
