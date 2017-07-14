@@ -1,16 +1,15 @@
 // Business Logic -->
 
 // Global Variabes -->
-// returnArr = [];
+var returnArr = [];
 
 // Count up to 2 from 1 when user inputs 2
 
 var pingPong = function(number) {
-  var initNumber = 1;
-  while (initNumber <= number) {
-      return (initNumber += 1);
+  debugger;
+  for (i = 1; i <= number, i++)
+    returnArr.push(i)
     }
-  }
 
 
 
