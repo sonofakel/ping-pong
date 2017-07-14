@@ -27,7 +27,7 @@ _A user should be able to enter a new number and see new results over and over a
 |  When input greater than 3 (n > 3) is entered every number divisible by 3 returns ping | n > 3 | each number / 3 = ping |
 |  When input greater than 5 (n > 5) is entered every number divisible by 5 returns pong | n > 5 | each number / 5 = pong |
 |  When input greater than 15 (n > 15) is entered every number divisible by 15 returns ping-pong | n > 15 | each number / 15 = ping-pong |
-|  When new number is entered clear old output and replace with new output |  n | n  |
+|  When new number is entered clear old output and replace with new output | n | old output replaced by new output  |
 
 **Notes**
 - Takes a number from the user
