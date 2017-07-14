@@ -13,10 +13,8 @@ var pingPong = function(number) {
       returnArr.push("<li>" + i + "</li>");
       initalValue += 1;
     }
-    console.log(returnArr);
   }
     var join = returnArr.join(" ");
-    console.log(join);
     return join;
 }
 
