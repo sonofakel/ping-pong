@@ -35,10 +35,12 @@ var pingPong = function(number) {
 $(function() {
   $("#number-input").submit(function(event) {
     event.preventDefault();
+    $("#hide img").hide();
     var number = $("#number").val();
     $("#output ul").append(pingPong(number));
   });
   $("#refresh").click(function() {
     location.reload();
   });
+
 });
