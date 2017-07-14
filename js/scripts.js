@@ -26,6 +26,9 @@ var pingPong = function(number) {
 
   }
 
+  for(var i = 0; i < returnArr.length; i++){
+    returnArr[i] = "<li>" + returnArr[i] + "</li>";
+}
 
 
     var join = returnArr.join(" ");
