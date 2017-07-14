@@ -12,7 +12,7 @@ _This web application takes a number from a user and returns a range of numbers 
 - Numbers divisible by 5 are replaced with "pong"
 - Numbers divisible by 15 are replaced with "ping-pong"
 
-_A user should be able to enter a new number and see new results over and over again._
+_A user should be able to enter a new number and see new results over and over again. [View GitHub page here](https://sonofakel.github.io/ping-pong/)_
 
 ## Specifications
 
@@ -27,19 +27,6 @@ _A user should be able to enter a new number and see new results over and over a
 |  When input greater than 3 (n > 3) is entered every number divisible by 3 returns ping | n > 3 | each number / 3 = ping |
 |  When input greater than 5 (n > 5) is entered every number divisible by 5 returns pong | n > 5 | each number / 5 = pong |
 |  When input greater than 15 (n > 15) is entered every number divisible by 15 returns ping-pong | n > 15 | each number / 15 = ping-pong |
-
-
-**Notes**
-- Takes a number from the user
-  - jQuery Form that outputs to HTML page
-- Returns a range of numbers from 1 to the number entered by the user.
-- Numbers divisible by 3 are replaced with Ping-Pong
-  - if statement that loops through the new array being created with the numbers and returns ping if (number in array % 3 = 0)
-- Numbers divisible by 5 are replaced with "pong"
-  - if statement that loops through the new array being created with the numbers and returns pong if (number in array % 5 = 0)
-- Numbers divisible by 15 are replaced with "ping-pong"
-  - if statement that loops through the new array being created with the numbers and returns ping-pong if (number in array % 15 = 0)
-- A user should be able to enter a new number and see new results over and over again.
 
 
 
