@@ -7,7 +7,7 @@ var returnArr = [];
 
 var pingPong = function(number) {
 
-  var initalValue = 1;
+  var initalValue = 0;
   if (initalValue < number) {
     for (i = 1; i <= number; i++) {
       returnArr.push(i);
@@ -43,4 +43,5 @@ $(function() {
     var number = $("#number").val();
     $("#output ul").append(pingPong(number));
   });
+
 });
