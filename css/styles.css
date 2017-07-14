@@ -1,13 +1,13 @@
 .container {
-  margin-bottom: 7%;
+  margin-bottom: 2%;
   background-image: url("../img/bkg.png");
-  padding-bottom: 7%;
+  padding-bottom: 25%;
 }
 
 .jumbotron {
   text-align: center;
-  background-image: url("../img/track-bkg.png");
-  color: #186290;
+  background-image: url("../img/ping-bkg.png");
+  color: #c70019;
 }
 
 .jumbotron p{
