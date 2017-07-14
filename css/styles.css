@@ -1,13 +1,13 @@
 .container {
   margin-bottom: 2%;
   background-image: url("../img/bkg.png");
-  padding-bottom: 25%;
+  padding-bottom: 10%;
 }
 
 .jumbotron {
   text-align: center;
   background-image: url("../img/ping-bkg.png");
-  color: #c70019;
+  color: #fff;
 }
 
 .jumbotron p{
@@ -17,4 +17,18 @@
 .result-col {
   margin-left: 3%;
   margin-top: 6%;
+}
+
+img {
+  margin-top: 5%;
+  padding-left: 15%;
+  width: 65%;
+}
+
+li {
+  list-style-type: none;
+}
+
+.result-col {
+  text-align: center;
 }
