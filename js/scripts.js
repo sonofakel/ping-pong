@@ -6,10 +6,14 @@ var returnArr = [];
 // Count up to 2 from 1 when user inputs 2
 
 var pingPong = function(number) {
-  debugger;
-  for (i = 1; i <= number, i++)
-    returnArr.push(i)
+  var initalValue = 1;
+  if (initalValue <= number) {
+    for (i = 1; i <= number; i++) {
+    returnArr.push(i);
+    initalValue += 1;
     }
+  }
+  }
 
 
 
@@ -19,6 +23,6 @@ $(function(){
   $("#number-input").submit(function(event){
     event.preventDefault();
     var number = $("#number").val();
-    $("#output ul").append("<li>" + pingPong(number) + "</li");
+    $("#output ul").append(pingPong(number));
   });
 });
