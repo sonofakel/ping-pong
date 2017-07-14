@@ -6,33 +6,26 @@ var returnArr = [];
 // Count up to 2 from 1 when user inputs 2
 
 var pingPong = function(number) {
-  debugger;
+
   var initalValue = 1;
   if (initalValue < number) {
     for (i = 1; i <= number; i++) {
-    returnArr.push(i);
-    initalValue += 1;
+      returnArr.push("<li>" + i + "</li>");
+      initalValue += 1;
     }
+    console.log(returnArr);
   }
-  for (i = 0; i < returnArr; i++) {
-     
-  }
-
-
-  // for (i = 0; 1 < returnArr.length; i++) {
-  //
-  //
-  // }
-  }
-
-
+    var join = returnArr.join(" ");
+    console.log(join);
+    return join;
+}
 
 
 // UI Logic -->
-$(function(){
-  $("#number-input").submit(function(event){
+$(function() {
+  $("#number-input").submit(function(event) {
     event.preventDefault();
-    var Orignumber = $("#number").val();
-    $("#output ul").text(pingPong(Orignumber));
+    var number = $("#number").val();
+    $("#output ul").append(pingPong(number));
   });
 });
